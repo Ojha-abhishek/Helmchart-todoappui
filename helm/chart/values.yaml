@@ -1,0 +1,10 @@
+appName: todoappui
+replicaCount: 2
+service:
+  port: 80
+  targetport: 80
+
+ingress:
+  enabled: false
+  host: todo-ui.devopsinsiders.online
+  pathType: Prefix
